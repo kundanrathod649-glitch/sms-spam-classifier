@@ -12,10 +12,11 @@ def load_model():
 
 vectorizer, model = load_model()
 
-def set_page_config():
-    st.title("SMS Spam Classifier")
-    page_icon = "🚨"
-    layout = "centered"
+st.set_page_config(
+    page_title="SMS Spam Classifier",
+    page_icon="🚨",
+    layout="centered"
+)
 
 st.title("SMS Spam Detector")
 st.subheader("This is a simple web application that uses a machine learning model to classify SMS messages as spam or not spam.")
