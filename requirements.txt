@@ -5,5 +5,4 @@ matplotlib
 seaborn
 nltk
 wordcloud
-pickel
 streamlit
