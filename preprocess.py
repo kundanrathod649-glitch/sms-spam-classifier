@@ -3,6 +3,10 @@ from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 import string
 
+nltk.download('punkt')
+nltk.download('punkt_tab')
+nltk.download('stopwords')
+
 def trans_SMS(SMS):
     SMS = SMS.lower()    # Covert SMS in Lower case
     SMS = nltk.word_tokenize(SMS)    # Create list of words in SMS
