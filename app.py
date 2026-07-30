@@ -18,6 +18,7 @@ st.set_page_config(
     layout="centered"
 )
 
+
 st.title("SMS Spam Detector")
 st.subheader("This is a simple web application that uses a machine learning model to classify SMS messages as spam or not spam.")
 
